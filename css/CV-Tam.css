@@ -1,4 +1,27 @@
-
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background-image:url(../images/background.png), 
+    linear-gradient(0deg,rgb(91 94 250),rgb(91 94 250));
+}
+.gird{
+    max-width: 1222px;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.gird__content{
+    max-width: 936px;
+    margin: auto;
+}
 .container__content{
     border: 25px solid yellow;
     margin-top: 60px;
@@ -408,4 +431,150 @@
 .content__portfolio__content--bottom__i__project-name{
     opacity: 1;
     visibility: visible;
+}
+/*xử lý References*/
+
+.references .content .col-sm-6 .intro {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    justify-content: center;
+    padding-left: 15px;
+    letter-spacing: 0.75px;
+}
+
+.references .content .col-sm-6 img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.references .content .card-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+/* Connect ME */
+
+.connect .google {
+    background-color: rgb(211, 51, 51);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .box-icon i {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.connect .box-icon {
+    margin-left: 15px;
+}
+
+.connect .facbook {
+    background-color: rgb(36, 36, 146);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .ball {
+    background-color: rgb(236, 139, 155);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .be {
+    background-color: rgb(80, 80, 221);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .in {
+    background-color: rgb(10, 117, 131);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .twer {
+    background-color: rgb(78, 78, 194);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .ins {
+    background-color: rgb(15, 121, 121);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .vi {
+    background-color: rgb(65, 65, 255);
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}
+
+.connect .box-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.connect {
+    display: flex;
+}
+
+
+/* Gmail */
+
+.gmail form input {
+    height: 35px;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #CCC;
+}
+
+.gmail form textarea {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #CCC;
+}
+
+.gmail {
+    padding-bottom: 20px;
+    margin-left: 25%;
+}
+
+.gmail p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.gmail form button {
+    text-align: left;
+    background-color: blueviolet;
+    margin-left: 42%;
 }
