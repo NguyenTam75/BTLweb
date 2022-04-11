@@ -42,11 +42,12 @@ body {
     height: 500px;
     width: 100%;
     position: relative;
-    background-image: url(../images/header_bg.jpg);
+    background-image: url(../images/CV-Linh.jpg);
     background-origin: right;
-    background-size: 100%;
+    background-size: 50%;
     background-repeat: no-repeat;
     padding-top: 60px;
+    background-position: 100%;
 }
 
 .header__download {
@@ -112,7 +113,7 @@ body {
     font-size: 1.4rem;
     letter-spacing: 7px;
     font-weight: 700;
-    color: #1f1f29;
+    color: #ff4d57;
 }
 
 .header__road__text__span--end {
@@ -162,8 +163,8 @@ body {
     padding-bottom: 45px;
 }
 
-.content__professional_skills {
-    padding-right: 30px;
+.content__professional_skills2 {
+    padding-left: 80px;
 }
 
 .content__personal_skills__content__name {
@@ -180,7 +181,25 @@ body {
     margin-top: 10px;
 }
 
-.content__personal_skills__content__number-persent--communication {
+.content__personal_skills__content__number-persent--group-interaction {
+    width: 90%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #1f1f29;
+    position: absolute;
+}
+
+.content__personal_skills__content__number-persent--creative {
+    width: 60%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #1f1f29;
+    position: absolute;
+}
+
+.content__personal_skills__content__number-persent--design {
     width: 85%;
     top: 0;
     left: 0;
@@ -189,34 +208,31 @@ body {
     position: absolute;
 }
 
-.content__personal_skills__content__number-persent--team-word {
-    width: 80%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #1f1f29;
+.content__personal_skills__content__persent__mess1 {
+    width: 42px;
     position: absolute;
+    background-color: #ff4d57;
+    top: -31px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    left: calc(90% - 21px);
 }
 
-.content__personal_skills__content__number-persent--leadership {
-    width: 95%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #1f1f29;
+.content__personal_skills__content__persent__mess2 {
+    width: 42px;
     position: absolute;
+    background-color: #ff4d57;
+    top: -31px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    left: calc(60% - 21px);
 }
 
-.content__personal_skills__content__number-persent--management {
-    width: 85%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #1f1f29;
-    position: absolute;
-}
-
-.content__personal_skills__content__persent__mess {
+.content__personal_skills__content__persent__mess3 {
     width: 42px;
     position: absolute;
     background-color: #ff4d57;
@@ -353,6 +369,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: #424250;
+    padding-top: 40px;
 }
 
 .content__experience__mean--top__mean {
@@ -486,7 +503,7 @@ body {
     font-size: 1.6rem;
     text-align: center;
     color: white;
-    bottom: 40px;
+    bottom: 150px;
     opacity: 0;
     visibility: hidden;
 }
