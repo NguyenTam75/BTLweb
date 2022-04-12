@@ -176,7 +176,7 @@ body{
     position: absolute;
 }
 .content__personal_skills__content__number-persent--management{
-    width: 85%;
+    width: 75%;
     top: 0;
     left: 0;
     bottom: 0;
@@ -194,6 +194,30 @@ body{
     color: white;
     left: calc(85% - 21px);
 }
+.content__personal_skills__content__persent__mess2,
+.content__personal_skills__content__persent__mess4{
+    width: 42px;
+    position: absolute;
+    background-color:#ff4d57;
+    top: -31px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    left: calc(75% - 21px);
+}
+.content__personal_skills__content__persent__mess3{
+    width: 42px;
+    position: absolute;
+    background-color:#ff4d57;
+    top: -31px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    left: calc(80% - 21px);
+}
+
 .content__personal_skills__content__persent__mess__trangle{
     position: absolute;
     border-top: 6px solid #ff4d57;
@@ -204,6 +228,7 @@ body{
     transform: translateX(-50%);
     left: 50%;
 }
+
 .content__professional_skills__content__label-circle{
     display: flex;
     margin-top: 15px;
@@ -578,3 +603,9 @@ body{
     background-color: blueviolet;
     margin-left: 42%;
 }
+ /* @media  screen and (min-width: 768px){
+    .content__professional_skills{
+        width: auto;
+        
+    }
+}  */
