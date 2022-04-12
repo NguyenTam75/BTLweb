@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD project</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-4" aria-current="page" href="../index.html">Back to Home</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+
+    <h1 class="text-center">CV ADMIN MODE</h1>
+    <form method="get" action="./ChangingFormByJS/index.html">
+      <div class="form-group">
+        <input class="form-control" type="text" name="id" autocomplete="off" value="ID" disabled>
+
+        <input class="form-control" type="text" name="firstName" placeholder="Họ" autocomplete="off">
+        <input class="form-control" type="text" name="lastName" placeholder="Tên" autocomplete="off">
+        <input class="form-control" type="text" name="aboutme" placeholder="Về bản thân bạn 1" autocomplete="off">
+        <input class="form-control" type="text" name="aboutme2" placeholder="Về bản thân bạn 2" autocomplete="off">
+        <input class="form-control" type="email" name="email" placeholder="Email" autocomplete="off">
+        <input class="form-control" type="text" name="subject" placeholder="Môn học" autocomplete="off">
+        <input class="form-control" type="text" name="message" placeholder="Lời nhắn gửi" autocomplete="off">
+        <div class="d-flex justify-content-center">
+          <button type="submit" id="create" class="btn btn-success">Add</button>
+          <!-- <button type="button" id="read" class="btn btn-info" onclick="read_data()">Read</button>
+          <button id="update" class="btn btn-warning" onclick="update_user()" type="button">Update</button> -->
+          <!-- <button id="delete" type="button" class="btn btn-danger" onclick="delete_all()">Delete</button> -->
+        </div>
+      </div>
+    </form>
+
+    <!-- <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>STT</th>
+          <th>Name</th>
+          <th>Date Of Borned</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+
+      </tbody>
+    </table> -->
+
+  </div>
+  <script src="../js/fontawsom.js"></script>
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+
+</html>
